@@ -1,0 +1,98 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+
+}
+
+.formulario {
+	width: 800px;
+	background: grey;
+	padding: 30px;
+	margin: auto;
+	margin-top: 10px;
+	margin-left: 10px;
+	border-radius: 4px;
+	font-family: 'calibri';
+	color: white;
+	box-shadow: 7px 13px 37px #000;
+
+
+}
+
+body {
+
+/*   background-image: url('Imagenes/perito-1100x407.jpg');*/
+
+}
+
+.formulario h4 {
+
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
+.controles{
+
+	width: 100%;
+	background: white;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border: 1px solid green;
+	font-family: 'calibri' ;
+	font-size: 18px;
+
+}
+
+.formulario p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 20px;
+
+}
+
+.formulario a {
+
+	color: white;
+	text-decoration: none;
+}
+
+
+.formulario a:hover {
+
+	color: white;
+	text-decoration: underline;
+}
+
+
+.formulario .boton-testimonio {
+
+	width: 100%;
+	background: green;
+	border: none;
+	padding: 12px;
+	color: white;
+	margin: 16px 0;
+	font-size: 16px;
+}
+
+
+.formulario arhivo {
+	font-family: 'calibri' ;
+	font-size: 48px;
+
+}
+
+.formulario .boton-archivo {
+
+	width: 10%;
+	background: green;
+	border: none;
+	padding: 12px;
+	color: white;
+	margin: 10px 0;
+	font-size: 16px;
+}
