@@ -3,28 +3,29 @@
 	padding: 0;
 	box-sizing: border-box;
 
+}
 
+body {
+	width: 100%;
+}
+
+.section-testimonio {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
 }
 
 .formulario {
-	width: 800px;
+	width: 600px;
 	background: grey;
 	padding: 30px;
-	margin: auto;
 	margin-top: 10px;
 	margin-left: 10px;
 	border-radius: 4px;
 	font-family: 'calibri';
 	color: white;
 	box-shadow: 7px 13px 37px #000;
-
-
-}
-
-body {
-
-/*   background-image: url('Imagenes/perito-1100x407.jpg');*/
-
 }
 
 .formulario h4 {
@@ -80,19 +81,19 @@ body {
 }
 
 
-.formulario arhivo {
+.formulario .arhivo {
 	font-family: 'calibri' ;
 	font-size: 48px;
-
+	align-self: center;
 }
 
 .formulario .boton-archivo {
-
-	width: 10%;
+	width: 100px;
 	background: green;
 	border: none;
 	padding: 12px;
 	color: white;
 	margin: 10px 0;
 	font-size: 16px;
+	cursor: pointer;
 }
