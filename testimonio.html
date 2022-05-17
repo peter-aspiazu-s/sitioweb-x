@@ -1,36 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="estilo2.css">
+	<link rel="stylesheet" href="./styles/estilo2.css">
 	<title>Ingreso</title>
 	<script type="text/javascript" src="chelp.js"></script>
+	<link rel="stylesheet" type="text/css" href="./styles/header.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	<script src="https://kit.fontawesome.com/0894a0420e.js" crossorigin="anonymous"></script>
 
 </head>
+
 <body>
 
-<section class="formulario"> 
-	
-	<h4>Ingreso de testimonio</h4> 
-	<input class="controles" type="text" name="nombres" id="nombres" placeholder="Ingrese su nombre">
-	<input class="controles" type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido">
-	<input class="controles" type="email" name="correo" id="correo" placeholder="Ingrese su correo electronico">
-	<input class="controles" type="number" name="dni" id="dni" placeholder="Ingrese su dni">
-	<input class="controles" type="birth" name="nacimiento" id="nacimiento" placeholder="Ingrese su fecha de nacimiento">
-	<input class="controles" type="text" name="dominios" id="dominios" placeholder="Ingrese dominio">
-	<textarea class="controles" type="text" name="declaracion" id="declaracion" placeholder="Ingrese testimonio"></textarea>
-	<label class="archivo">Adjuntar archivo</label>
-	<input class="boton-archivo"type="submit" value="Buscar">
-	<p>Estoy de acuerdo con <a href="#">Terminos y condiciones</a></p>
-	<input class="boton-testimonio"type="submit" value="Registrar">
- 
+	<header class="header">
+		<div class="header-container">
+			<div class="caja-logo" title="logo"></div>
+			<i class="fa-solid fa-bars"></i>
+		</div>
+		<nav class="nav-responsive animate__animated animate__fadeInLeft">
+			<ul class="menu-bars">
 
-</section>
+				<li>Ingreso
+
+					<ul class="submenu-responisve">
+						<a href="#" onclick="LoginA();">
+							<li>Aseguradora</li>
+						</a>
+						<a href="#" onclick="LoginC();">
+							<li>C-HeLP</li>
+						</a>
+
+					</ul>
+				</li>
+				<a href="#" onclick="Testimonio();">
+					<li>Testimonio</li>
+				</a>
+				<a href="#" onclick="Institucional();">
+					<li>Institucional</li>
+				</a>
+				<a href="#" onclick="Ayuda();">
+					<li>Mesa de ayuda</li>
+				</a>
+				<a href="#" onclick="Novedades();">
+					<li>Novedades</li>
+				</a>
+				<a href="#" onclick="Contacto();">
+					<li>Contacto</li>
+				</a>
+
+			</ul>
+			<ul class="Menu">
+
+				<li><a href="#">Ingreso</a>
+
+					<ul class="Submenu animate__animated animate__fadeInDown animate__faster">
+						<li><a href="#" onclick="LoginA();">Aseguradora</a></li>
+						<li><a href="#" onclick="LoginC();">C-HeLP</a></li>
+
+					</ul>
+				</li>
+				<li><a href="#" onclick="Testimonio();">Testimonio</a></li>
+				<li><a href="#" onclick="Institucional();">Institucional</a></li>
+				<li><a href="#" onclick="Ayuda();">Mesa de ayuda</a></li>
+				<li><a href="#" onclick="Novedades();">Novedades</a></li>
+				<li><a href="#" onclick="Contacto();">Contacto</a></li>
+
+			</ul>
+		</nav>
 
 
+	</header>
+
+	<section class="formulario">
+
+		<h4>Ingreso de testimonio</h4>
+		<input class="controles" type="text" name="nombres" id="nombres" placeholder="Ingrese su nombre">
+		<input class="controles" type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido">
+		<input class="controles" type="email" name="correo" id="correo" placeholder="Ingrese su correo electronico">
+		<input class="controles" type="number" name="dni" id="dni" placeholder="Ingrese su dni">
+		<input class="controles" type="birth" name="nacimiento" id="nacimiento"
+			placeholder="Ingrese su fecha de nacimiento">
+		<input class="controles" type="text" name="dominios" id="dominios" placeholder="Ingrese dominio">
+		<textarea class="controles" type="text" name="declaracion" id="declaracion"
+			placeholder="Ingrese testimonio"></textarea>
+		<label class="archivo">Adjuntar archivo</label>
+		<input class="boton-archivo" type="submit" value="Buscar">
+		<p>Estoy de acuerdo con <a href="#">Terminos y condiciones</a></p>
+		<input class="boton-testimonio" type="submit" value="Registrar">
+
+
+	</section>
+
+	<script type="text/javascript" src="./js/btnMenu.js"></script>
 </body>
+
 </html>
 
 <!-- 	<h1>Ingreso de datos personales</h1>
